@@ -1,0 +1,150 @@
+/*= Publishers Page CSS
+----------------------------------------*/
+.pages-logo {
+	position: absolute; 
+	top:30px;
+}
+
+#websites_apps {
+	width:470px;
+}
+
+.publisher_list li {
+	padding: 0px 20px;
+	border-top: 1px solid #fff;
+	border-bottom:1px solid #dedcda;
+	font-size:18px;
+	font-family: Arial;
+	color: #5c5455;
+}
+.publisher_list li:hover {
+	border-collapse: collapse;
+	background: #f5f4f2; 
+	background: -webkit-linear-gradient(#f5f4f2, #ebe9e6);
+	background: -moz-linear-gradient(#f5f4f2, #ebe9e6);
+	background: -ms-linear-gradient(#f5f4f2, #ebe9e6);
+	background: -o-linear-gradient(#f5f4f2, #ebe9e6);
+	background: linear-gradient(#f5f4f2, #ebe9e6);
+
+}
+.publisher_label {
+	float: left;
+	width: 250px;
+}
+.publisher_label > p {
+	display: block;
+	line-height: 54px;
+	margin-top:0px;
+}
+.plus {
+	margin-top:-2px;
+	float: right;
+	position: relative;
+	top: 14px;
+	
+}
+#newdiv {
+	margin-top:20px;
+}
+.status_box {
+	position: relative;
+	top: 14px;
+}
+.active {
+	float: left;
+	background-color: #bdd428;
+	color: #fff;
+	width: 140px;
+	font-size: 13px;
+	padding:5px 0;
+	text-align: center;
+}
+.inprogress {
+	float: left;
+	background-color: #f5d331;	
+	color: #fff;
+	width: 140px;
+	font-size: 13px;
+	padding:5px 0;
+	text-align: center;
+}
+.inactive {
+	float: left;
+	background-color: red;		
+	color: #fff;
+	width: 140px;
+	font-size: 13px;
+	padding:5px 0;
+	text-align: center;
+
+}
+.bot_arr {
+	background: url('../imagery/bot_arr.png') no-repeat;
+	margin: 0 auto;
+	margin-top:-20px;
+	margin-bottom: 10px;
+	width:24px;
+	height:14px;
+}
+
+.publisher_text {
+	background: #ebe9e6;
+	padding:10px 0px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.publisher_text_2 {
+	background: #ebe9e6;
+	padding:10px 10px;
+	margin-bottom: 40px;
+}
+
+.toggle_button {
+	background: transparent url('../imagery/plusbuttons.png') no-repeat;
+	border: none;
+	width: 30px;
+	height: 30px;
+}
+.plus_button{
+	background-position: 0px 0px;
+}
+.plus_button:hover{
+	background-position: -30px 0px;
+}
+.plus_button:active{
+	background-position: -60px 0px;
+}
+.minus_button{
+	background-position: 0px -30px;
+}
+.minus_button:hover{
+	background-position: -30px -30px;
+}
+.minus_button:active{
+	background-position: -60px -30px;
+}
+
+
+/*do some for actives and hover states */
+
+
+/*
+.plus_button {
+	background-color: #f5f4f2;
+	background:  url('../imagery/plus_button.png') ;
+	width: 30px;
+	height: 30px;
+	border: none;
+}
+.plus_button:hover {
+	background:  url('../imagery/plus-button-hover.png') ;
+}
+.plus_button:active {
+	background: url('../imagery/plus-button-down.png') ;
+}
+*/
+
+.dropdown-menu {
+	display: none;
+	margin-top:20px;
+}
